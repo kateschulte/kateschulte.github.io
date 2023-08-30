@@ -1,0 +1,132 @@
+.card {
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card .card-img {
+    border-radius: 0px;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.nav-item a:hover {
+text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #7733bb;
+  }
+  
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+
+.bi {
+    font-size: 1.75rem;
+    color: #50a;
+}
+
+.bi:hover {
+    color: #7733bb;
+}
+
+.sticky-top {
+    top: 3rem;
+}
+
+.sidebar {
+    font-size: 13px;   
+    color:#50a;
+}
+
+.sidebar .list-group-item {
+    color: #50a;
+}
+
+.sidebar .list-group-item h6 {
+    color:#1b1b1b;
+}
+
+ 
+.primary {
+    color: #50a;
+}
+
+.secondary {
+    color: #7733bb;
+}
+
+.btn-primary {
+    background-color: #50a;
+    border: #7733bb;
+} 
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #7733bb;
+    border-color: #7733bb;
+}
+
+.tan {
+    background-color: #f8f3f0;
+}
+
+.list-group-item.active {
+    background-color: #7733bb;
+    border: #7733bb;
+    color: #FFFFFF;
+}
+
+body {
+    
+    color: #1b1b1b;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.caption {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+
+.boxshadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+.magnify {
+    cursor: zoom-in;
+ }
